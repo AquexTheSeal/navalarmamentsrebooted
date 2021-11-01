@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "navalarmamentsrebooted:items/tigers_eye_vaul"
+    "layer0": "navalarmamentsrebooted:item/tigers_eye_vaul"
   },
   "display": {
     "thirdperson_righthand": {

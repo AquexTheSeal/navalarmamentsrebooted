@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "navalarmamentsrebooted:items/netherite_vaul"
+    "layer0": "navalarmamentsrebooted:item/netherite_vaul"
   },
   "display": {
     "thirdperson_righthand": {

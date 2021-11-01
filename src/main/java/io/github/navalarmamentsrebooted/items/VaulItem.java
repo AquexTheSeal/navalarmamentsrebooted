@@ -7,12 +7,12 @@ import net.minecraft.potion.EffectInstance;
 public class VaulItem extends AxeItem {
     protected EffectInstance tippedEffect;
 
-    public VaulItem(ItemTier tier, int attackDamage, float attackSpeed, Item.Properties builder) {
-        super(tier, attackDamage, attackSpeed, builder);
+    public VaulItem(IItemTier tier, int attackDamageIn, float attackSpeedIn, Item.Properties builder) {
+        super(tier, attackDamageIn, attackSpeedIn, builder);
     }
 
-    public VaulItem(ItemTier tier, int attackDamage, float attackSpeed, EffectInstance effect, Item.Properties builder) {
-        super(tier, attackDamage, attackSpeed, builder);
+    public VaulItem(IItemTier tier, int attackDamageIn, float attackSpeedIn, EffectInstance effect, Item.Properties builder) {
+        super(tier, attackDamageIn, attackSpeedIn, builder);
         this.tippedEffect = effect;
     }
 
@@ -23,7 +23,7 @@ public class VaulItem extends AxeItem {
             entity.addEffect(tippedEffect);
         }
 
-        entity.setDeltaMovement((entity.getMotionDirection().getStepX()), 0.5, ((entity.getMotionDirection().getStepZ())));
+        entity.setDeltaMovement(0, 0.5, 0);
         return retval;
     }
 }

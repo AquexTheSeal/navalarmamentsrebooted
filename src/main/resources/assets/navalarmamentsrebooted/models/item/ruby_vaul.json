@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "navalarmamentsrebooted:items/ruby_vaul"
+    "layer0": "navalarmamentsrebooted:item/ruby_vaul"
   },
   "display": {
     "thirdperson_righthand": {

@@ -1,11 +1,14 @@
-package io.github;
+package io.github.navalarmamentsrebooted;
 
+import io.github.navalarmamentsrebooted.config.NavalArmamentsRebootedConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
@@ -38,6 +41,8 @@ public class NavalArmamentsRebooted {
 
         // NOTE 1d: register this class through the Minecraft Forge Event Bus
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, NavalArmamentsRebootedConfig.COMMON_SPEC);
     }
 
     // NOTE 2a: do some things during the setup phase of this mod, most preferably sending logs or whatever

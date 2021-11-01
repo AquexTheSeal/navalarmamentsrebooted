@@ -3,10 +3,7 @@ package io.github.navalarmamentsrebooted.items;
 import io.github.chaosawakens.api.IAutoEnchantable;
 import io.github.chaosawakens.common.config.CAConfig;
 import net.minecraft.enchantment.EnchantmentData;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.util.NonNullList;
 

@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "navalarmamentsrebooted:items/amethyst_vaul"
+    "layer0": "navalarmamentsrebooted:item/amethyst_vaul"
   },
   "display": {
     "thirdperson_righthand": {
