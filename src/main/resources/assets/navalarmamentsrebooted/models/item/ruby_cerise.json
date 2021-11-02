@@ -1,41 +1,41 @@
 {
-    "parent": "navalarmamentsrebooted:item/cerise_wood",
+    "parent": "navalarmamentsrebooted:item/wooden_cerise",
     "textures": {
-        "layer0":"navalarmamentsrebooted:item/cerise_ruby_standby"
+        "layer0":"navalarmamentsrebooted:item/ruby_cerise_standby"
     },
     "overrides": [
         {
             "predicate": {
                 "pulling": 1
             },
-            "model": "navalarmamentsrebooted:item/cerise_pulling/cerise_ruby_pulling_0"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_pulling_0"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.65
             },
-            "model": "navalarmamentsrebooted:item/cerise_pulling/cerise_ruby_pulling_1"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_pulling_1"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.9
             },
-            "model": "navalarmamentsrebooted:item/cerise_pulling/cerise_ruby_gold_pulling_2"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_pulling_2"
         },
         {
             "predicate": {
                 "charged": 1
             },
-            "model": "navalarmamentsrebooted:item/cerise_pulling/cerise_ruby_gold_loaded"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_loaded"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "charged": 1
             },
-            "model": "navalarmamentsrebooted:item/cerise_pulling/cerise_ruby_gold_firing"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_firing"
         }
     ]
 }

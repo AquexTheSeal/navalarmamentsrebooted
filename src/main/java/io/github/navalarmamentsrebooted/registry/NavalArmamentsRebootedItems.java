@@ -4,14 +4,12 @@ import io.github.chaosawakens.common.enums.CAItemTier;
 import io.github.chaosawakens.common.registry.CAItemGroups;
 import io.github.navalarmamentsrebooted.NavalArmamentsRebooted;
 import io.github.navalarmamentsrebooted.config.NavalArmamentsRebootedConfig;
+import io.github.navalarmamentsrebooted.items.CeriseItem;
 import io.github.navalarmamentsrebooted.items.EnchantedVaulItem;
 import io.github.navalarmamentsrebooted.items.VaulItem;
 import net.minecraft.enchantment.EnchantmentData;
 import net.minecraft.enchantment.Enchantments;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemTier;
-import net.minecraft.item.Rarity;
+import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraftforge.fml.RegistryObject;
@@ -37,4 +35,10 @@ public class NavalArmamentsRebootedItems {
     public static final RegistryObject<Item> RUBY_VAUL = ITEMS.register("ruby_vaul", ()-> new VaulItem(CAItemTier.TOOL_RUBY, NavalArmamentsRebootedConfig.COMMON.rubyVaulDamage.get()-17, -3.4f, new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 15, 2), new Item.Properties().rarity(Rarity.COMMON).durability(1290).tab(CAItemGroups.equipmentItemGroup)));
     public static final RegistryObject<Item> ULTIMATE_VAUL = ITEMS.register("ultimate_vaul", () -> new EnchantedVaulItem(CAItemTier.TOOL_ULTIMATE, NavalArmamentsRebootedConfig.COMMON.ultimateVaulDamage.get()-38, -3.2f, new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 15, 2), new Item.Properties().rarity(Rarity.EPIC).durability(8540).tab(CAItemGroups.equipmentItemGroup),
             new EnchantmentData[]{new EnchantmentData(Enchantments.SHARPNESS, 3), new EnchantmentData(Enchantments.MOB_LOOTING, 3), new EnchantmentData(Enchantments.UNBREAKING, 2), new EnchantmentData(Enchantments.FIRE_ASPECT, 2)}));
+
+    //CERISES (HEAVY CROSSBOWS)
+    public static final RegistryObject<Item> WOODEN_CERISE = ITEMS.register("wooden_cerise", ()-> new CeriseItem(new Item.Properties().rarity(Rarity.COMMON).durability(120).tab(ItemGroup.TAB_COMBAT)));
+
+    //CERISES (HEAVY CROSSBOWS) [Chaos Awakens Integration]
+    public static final RegistryObject<Item> RUBY_CERISE = ITEMS.register("ruby_cerise", ()-> new CeriseItem(new Item.Properties().rarity(Rarity.COMMON).durability(8540).tab(CAItemGroups.equipmentItemGroup)));
 }

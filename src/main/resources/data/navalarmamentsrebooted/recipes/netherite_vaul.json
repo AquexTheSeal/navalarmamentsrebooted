@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "navalarmamentsrebooted:diamond_vaul"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "navalarmamentsrebooted:netherite_vaul"
+  }
+}
