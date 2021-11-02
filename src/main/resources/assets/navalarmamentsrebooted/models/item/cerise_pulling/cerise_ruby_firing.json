@@ -1,0 +1,6 @@
+{
+    "parent": "navalarmamentsrebooted:item/cerise_wood_firing",
+    "textures": {
+        "layer0":"navalarmamentsrebooted:item/cerise_ruby_loaded"
+    }
+}

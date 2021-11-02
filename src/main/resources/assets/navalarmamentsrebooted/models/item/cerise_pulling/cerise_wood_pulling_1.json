@@ -1,0 +1,6 @@
+{
+    "parent": "navalarmamentsrebooted:item/cerise_wood_pulling_0",
+    "textures": {
+        "layer0": "navalarmamentsrebooted:item/cerise_wood_pulling_1"
+    }
+}
