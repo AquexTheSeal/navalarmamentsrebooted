@@ -13,14 +13,14 @@
         {
             "predicate": {
                 "pulling": 1,
-                "pull": 0.65
+                "pull": 0.58
             },
             "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_pulling_1"
         },
         {
             "predicate": {
                 "pulling": 1,
-                "pull": 0.9
+                "pull": 1.0
             },
             "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_pulling_2"
         },
@@ -32,10 +32,10 @@
         },
         {
             "predicate": {
-                "pulling": 1,
-                "charged": 1
+                "charged": 1,
+                "firework": 1
             },
-            "model": "navalarmamentsrebooted:item/cerise_pulling/ruby_cerise_firing"
+            "model": "item/cerise_pulling/ruby_cerise_firework"
         }
     ]
 }

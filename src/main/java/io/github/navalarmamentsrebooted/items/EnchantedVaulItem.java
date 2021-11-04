@@ -12,7 +12,7 @@ public class EnchantedVaulItem extends VaulItem implements IAutoEnchantable {
 
     private final EnchantmentData[] enchantments;
 
-    public EnchantedVaulItem(IItemTier tier, int attackDamageIn, float attackSpeedIn, EffectInstance effectInstance, Item.Properties builderIn, EnchantmentData[] enchantments) {
+    public EnchantedVaulItem(IItemTier tier, int attackDamageIn, float attackSpeedIn, EffectInstance effectInstance, EffectInstance effectInstance2, Item.Properties builderIn, EnchantmentData[] enchantments) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
         this.enchantments = enchantments;
     }

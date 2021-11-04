@@ -1,14 +1,20 @@
 package io.github.navalarmamentsrebooted;
 
 import io.github.navalarmamentsrebooted.config.NavalArmamentsRebootedConfig;
+import io.github.navalarmamentsrebooted.items.CeriseItem;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.CrossbowItem;
+import net.minecraft.item.ItemModelsProperties;
+import net.minecraft.item.Items;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
@@ -49,5 +55,9 @@ public class NavalArmamentsRebooted {
     private void setup(final FMLCommonSetupEvent event) {
         LOGGER.info("[" + MOD_NAME + "] - no.");
         LOGGER.info("Cool weaponry mod. Yes.");
+    }
+
+    public static NavalArmamentsRebooted getInstance() {
+        return instance;
     }
 }

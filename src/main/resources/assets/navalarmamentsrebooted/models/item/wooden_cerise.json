@@ -30,34 +30,34 @@
             "predicate": {
                 "pulling": 1
             },
-            "model": "navalarmamentsrebooted:item/wooden_cerise_pulling_0"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/wooden_cerise_pulling_0"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 0.58
             },
-            "model": "navalarmamentsrebooted:item/wooden_cerise_pulling_1"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/wooden_cerise_pulling_1"
         },
         {
             "predicate": {
                 "pulling": 1,
                 "pull": 1.0
             },
-            "model": "navalarmamentsrebooted:item/wooden_cerise_pulling_2"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/wooden_cerise_pulling_2"
         },
         {
             "predicate": {
                 "charged": 1
             },
-            "model": "navalarmamentsrebooted:item/wooden_cerise_loaded"
+            "model": "navalarmamentsrebooted:item/cerise_pulling/wooden_cerise_loaded"
         },
         {
             "predicate": {
                 "charged": 1,
                 "firework": 1
             },
-            "model": "item/crossbow_firework"
+            "model": "item/cerise_pulling/wooden_cerise_firework"
         }
     ]
 }
