@@ -1,0 +1,33 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/titanium"
+    },
+    "1": {
+      "tag": "forge:storage_blocks/uranium"
+    },
+    "2": {
+      "tag": "forge:ingots/titanium"
+    },
+    "3": {
+      "tag": "forge:ingots/titanium"
+    },
+    "4": {
+      "tag": "chaosawakens:ultimate_gear_handles"
+    },
+    "7": {
+      "tag": "forge:ingots/uranium"
+    }
+  },
+  "result": {
+    "item": "navalarmamentsrebooted:ultimate_vaul",
+    "count": 1
+  }
+}

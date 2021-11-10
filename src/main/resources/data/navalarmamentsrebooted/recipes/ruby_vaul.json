@@ -1,0 +1,33 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:gems/ruby"
+    },
+    "1": {
+      "tag": "forge:storage_blocks/ruby"
+    },
+    "2": {
+      "tag": "forge:gems/ruby"
+    },
+    "3": {
+      "tag": "forge:gems/ruby"
+    },
+    "4": {
+      "tag": "forge:gems/ruby"
+    },
+    "7": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "navalarmamentsrebooted:ruby_vaul",
+    "count": 1
+  }
+}

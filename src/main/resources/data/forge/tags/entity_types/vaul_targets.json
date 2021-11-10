@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:iron_golem",
+
+    "chaosawakens:robo_warrior",
+    "chaosawakens:robo_sniper",
+    "chaosawakens:hercules_beetle",
+    "chaosawakens:wasp",
+    "chaosawakens:whale",
+
+    "chaosawakens:ent",
+    "chaosawakens:wooden_ent",
+    "chaosawakens:spruce_ent",
+    "chaosawakens:dark_oak_ent",
+    "chaosawakens:birch_ent",
+    "chaosawakens:jungle_ent",
+    "chaosawakens:acacia_ent",
+    "chaosawakens:warped_ent",
+    "chaosawakens:crimson_ent"
+  ]
+}

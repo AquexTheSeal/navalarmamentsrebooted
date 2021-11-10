@@ -1,0 +1,33 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:gems/tigers_eye"
+    },
+    "1": {
+      "tag": "forge:storage_blocks/tigers_eye"
+    },
+    "2": {
+      "tag": "forge:gems/tigers_eye"
+    },
+    "3": {
+      "tag": "forge:gems/tigers_eye"
+    },
+    "4": {
+      "tag": "forge:gems/tigers_eye"
+    },
+    "7": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "navalarmamentsrebooted:tigers_eye_vaul",
+    "count": 1
+  }
+}
