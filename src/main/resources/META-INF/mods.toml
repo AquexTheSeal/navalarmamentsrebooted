@@ -1,15 +1,16 @@
 modLoader="javafml"
 loaderVersion="[36,)"
+issueTrackerURL="https://github.com/AquexTheSeal/navalarmamentsrebooted/issues"
+displayURL=""
 license="All Rights Reserved"
 
 [[mods]]
 modId="navalarmamentsrebooted"
 version="${file.jarVersion}"
-displayName="Navalarmamentsrebooted"
+displayName="Naval Armaments: Rebooted"
 authors="AquTheSeal, Sajevius"
-description='''
-A fully-coded remake of one of @Aqu's MCreator mods which was Naval Armaments! This mod has a bunch of balanced weapons with their own variety with Chaos Awakens support.
-'''
+description='''A fully-coded remake of one of @Aqu\'s MCreator mods which was Naval Armaments! This mod has a bunch of balanced weapons with their own variety with Chaos Awakens support.'''
+itemIcon="navalarmamentsrebooted:ultimate_vaul"
 
 [[dependencies.navalarmamentsrebooted]]
    modId="forge"
